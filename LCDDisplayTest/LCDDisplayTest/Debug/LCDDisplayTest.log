@@ -1,8 +1,1 @@
-﻿Build started 3/24/2016 08:34:16 AM.
-     1>Project "E:\Development\Arduino\Study\LCDDisplayTest\LCDDisplayTest\LCDDisplayTest.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(36,5): warning MSB8005: The property 'NMakeBuildCommandLine' doesn't exist.  Skipping...
-     1>Done Building Project "E:\Development\Arduino\Study\LCDDisplayTest\LCDDisplayTest\LCDDisplayTest.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00
+﻿

@@ -15,15 +15,107 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\graphicstest\graphicstest.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\rotationtest\rotationtest.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftbmp\tftbmp.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftbmp_shield\tftbmp_shield.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.ino" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.ino" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.pde" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_calibrate\spfd5408_calibrate.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_graphicstest\spfd5408_graphicstest.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_rotationtest\spfd5408_rotationtest.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_tftbmp\spfd5408_tftbmp.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_tftpaint\spfd5408_tftpaint.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\graphicstest\graphicstest.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\rotationtest\rotationtest.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftbmp\tftbmp.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftbmp_shield\tftbmp_shield.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_calibrate\spfd5408_calibrate.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_graphicstest\spfd5408_graphicstest.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_rotationtest\spfd5408_rotationtest.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_tftbmp\spfd5408_tftbmp.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_tftpaint\spfd5408_tftpaint.ino" />
+    <None Include="Sketch\spfd5408_tftpaint.ino.bak" />
+    <None Include="Sketch\spfd5408_calibrate\spfd5408_calibrate.ino" />
+    <None Include="Sketch\spfd5408_graphicstest\spfd5408_graphicstest.ino" />
+    <None Include="Sketch\spfd5408_rotationtest\spfd5408_rotationtest.ino" />
+    <None Include="Sketch\spfd5408_tftpaint\spfd5408_tftpaint.ino" />
+    <None Include="Sketch\Sketch.ino.bak" />
     <None Include="Sketch\Sketch.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sketch\VSPDE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Libs\SPFD5408\pin_magic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\SPFD5408\registers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\SPFD5408\SPFD5408_Adafruit_GFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\SPFD5408\SPFD5408_TouchScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch\Libs\SPFD5408\pin_magic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch\Libs\SPFD5408\registers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_GFX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sketch\Libs\SPFD5408\SPFD5408_TouchScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Sketch\VSPDECPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\glcdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\SPFD5408\glcdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\SPFD5408\SPFD5408_Adafruit_GFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\SPFD5408\SPFD5408_TouchScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\glcdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch\Libs\SPFD5408\glcdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_GFX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sketch\Libs\SPFD5408\SPFD5408_TouchScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

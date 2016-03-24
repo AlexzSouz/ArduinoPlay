@@ -25,7 +25,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
+    <ConfigurationType>Utility</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -118,13 +118,65 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\glcdfont.c" />
+    <ClCompile Include="Libs\SPFD5408\glcdfont.c" />
+    <ClCompile Include="Libs\SPFD5408\SPFD5408_Adafruit_GFX.cpp" />
+    <ClCompile Include="Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.cpp" />
+    <ClCompile Include="Libs\SPFD5408\SPFD5408_TouchScreen.cpp" />
+    <ClCompile Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\glcdfont.c" />
+    <ClCompile Include="Sketch\Libs\SPFD5408\glcdfont.c" />
+    <ClCompile Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_GFX.cpp" />
+    <ClCompile Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.cpp" />
+    <ClCompile Include="Sketch\Libs\SPFD5408\SPFD5408_TouchScreen.cpp" />
     <ClCompile Include="Sketch\VSPDECPP.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Libs\SPFD5408\pin_magic.h" />
+    <ClInclude Include="Libs\SPFD5408\registers.h" />
+    <ClInclude Include="Libs\SPFD5408\SPFD5408_Adafruit_GFX.h" />
+    <ClInclude Include="Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.h" />
+    <ClInclude Include="Libs\SPFD5408\SPFD5408_TouchScreen.h" />
+    <ClInclude Include="Sketch\Libs\SPFD5408\pin_magic.h" />
+    <ClInclude Include="Sketch\Libs\SPFD5408\registers.h" />
+    <ClInclude Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_GFX.h" />
+    <ClInclude Include="Sketch\Libs\SPFD5408\SPFD5408_Adafruit_TFTLCD.h" />
+    <ClInclude Include="Sketch\Libs\SPFD5408\SPFD5408_TouchScreen.h" />
     <ClInclude Include="Sketch\VSPDE.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\graphicstest\graphicstest.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\rotationtest\rotationtest.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftbmp\tftbmp.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftbmp_shield\tftbmp_shield.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.ino" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.pde" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.ino" />
+    <None Include="Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.pde" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_calibrate\spfd5408_calibrate.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_graphicstest\spfd5408_graphicstest.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_rotationtest\spfd5408_rotationtest.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_tftbmp\spfd5408_tftbmp.ino" />
+    <None Include="Libs\SPFD5408\examples\spfd5408_tftpaint\spfd5408_tftpaint.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\graphicstest\graphicstest.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\rotationtest\rotationtest.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftbmp\tftbmp.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftbmp_shield\tftbmp_shield.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint\tftpaint.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\adafruit_originals\tftpaint_shield\tftpaint_shield.pde" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_calibrate\spfd5408_calibrate.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_graphicstest\spfd5408_graphicstest.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_rotationtest\spfd5408_rotationtest.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_tftbmp\spfd5408_tftbmp.ino" />
+    <None Include="Sketch\Libs\SPFD5408\examples\spfd5408_tftpaint\spfd5408_tftpaint.ino" />
+    <None Include="Sketch\Sketch.ino.bak" />
+    <None Include="Sketch\spfd5408_calibrate\spfd5408_calibrate.ino" />
     <None Include="Sketch\Sketch.ino" />
+    <None Include="Sketch\spfd5408_graphicstest\spfd5408_graphicstest.ino" />
+    <None Include="Sketch\spfd5408_rotationtest\spfd5408_rotationtest.ino" />
+    <None Include="Sketch\spfd5408_tftpaint.ino.bak" />
+    <None Include="Sketch\spfd5408_tftpaint\spfd5408_tftpaint.ino" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

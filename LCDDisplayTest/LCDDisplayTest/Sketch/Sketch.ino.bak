@@ -1,0 +1,59 @@
+#include "VSPDE.h"
+//#include "../Libs/SPFD5408/registers.h"
+
+// GLOBAL scope for Arduino
+using namespace ArduinoConsoleStub;
+
+namespace Arduino_LCDDisplay
+{
+	class LCDDisplayPin
+	{
+	public:
+		int ledPin13;
+		int ledPin13IO;
+	};
+
+	class LCDDisplay
+	{
+		// Setup
+		public : void Setup(LCDDisplayPin displayPin)
+		{
+			Serial.println("Setup Microcontroller");
+			pinMode(displayPin.ledPin13, displayPin.ledPin13IO);
+		}
+
+		public: void LedBlink(int ledPin)
+		{
+			digitalWrite(ledPin, HIGH);
+			delay(100);
+
+			digitalWrite(ledPin, LOW);
+			delay(100);
+		}
+
+		// Loop
+		public: void Loop(LCDDisplayPin displayPin)
+		{
+			Serial.println("Looing");
+			LedBlink(displayPin.ledPin13);
+		}
+	};
+}
+
+using namespace Arduino_LCDDisplay;
+
+LCDDisplay lcdDisplay;
+LCDDisplayPin lcdDisplayPin;
+
+void setup()
+{
+	lcdDisplayPin.ledPin13 = 13;
+	lcdDisplayPin.ledPin13IO = OUTPUT;
+
+	lcdDisplay.Setup(lcdDisplayPin);
+}
+
+void loop() 
+{
+	lcdDisplay.Loop(lcdDisplayPin);
+}
