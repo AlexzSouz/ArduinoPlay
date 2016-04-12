@@ -1,0 +1,31 @@
+﻿Build started 4/12/2016 22:04:35 PM.
+     1>Project "E:\Development\Arduino\ArduinoPlay\8SegmentTube\8SegmentTube\8SegmentTube.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         "C:\Program Files (x86)\Arduino\arduino_debug.exe" "E:\Development\Arduino\ArduinoPlay\8SegmentTube\8SegmentTube\8SegmentTube.ino" --upload
+         :VCEnd
+         Loading configuration...
+         Initializing packages...
+         Preparing boards...
+         File name 8SegmentTube.h is invalid: ignored
+         File name 8SegmentTube.ino is invalid: ignored
+         Verifying and uploading...
+         In file included from sketch\8SegmentTube.h:2:0,
+         
+                          from E:\Development\Arduino\ArduinoPlay\8SegmentTube\8SegmentTube\8SegmentTube.ino:1:
+         
+         ArduinoDigital.cpp.h:87: error: expected unqualified-id before '+' token
+         
+          }+
+         
+           ^
+         
+         exit status 1
+         expected unqualified-id before '+' token
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(123,5): error MSB3073: The command ""C:\Program Files (x86)\Arduino\arduino_debug.exe" "E:\Development\Arduino\ArduinoPlay\8SegmentTube\8SegmentTube\8SegmentTube.ino" --upload
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(123,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "E:\Development\Arduino\ArduinoPlay\8SegmentTube\8SegmentTube\8SegmentTube.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.74
